@@ -12,7 +12,7 @@ import net.minecraft.util.registry.Registry;
 
 public class JuxtaposeRegistry {
 
-    public static final Block MUSIC_BOX = new MusicBoxBlock(AbstractBlock.Settings.copy(Blocks.JUKEBOX).luminance((state) -> 13));
+    public static final Block MUSIC_BOX = new MusicBoxBlock();
     public static final BlockItem MUSIC_BOX_ITEM = new BlockItem(JuxtaposeRegistry.MUSIC_BOX, new Item.Settings().group(ItemGroup.DECORATIONS));
 
     public static void register() {

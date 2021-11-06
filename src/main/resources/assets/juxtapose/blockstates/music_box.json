@@ -1,5 +1,19 @@
 {
   "variants": {
-    "": { "model": "juxtapose:block/music_box" }
+    "facing=east": {
+      "model": "juxtapose:block/music_box",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "juxtapose:block/music_box"
+    },
+    "facing=south": {
+      "model": "juxtapose:block/music_box",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "juxtapose:block/music_box",
+      "y": 270
+    }
   }
 }

@@ -4,16 +4,15 @@
   "version": "${version}",
 
   "name": "Juxtapose",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "A cosmetic and functional vintage jux for your groovy and blocky life.",
   "authors": [
-    "Me!"
+    "MythDen, dirtboll, and irfancen"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/KentaBisma/Juxtapose"
   },
 
-  "license": "CC0-1.0",
+  "license": "None",
   "icon": "assets/juxtapose/icon.png",
 
   "environment": "*",
